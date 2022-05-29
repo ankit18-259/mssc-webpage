@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Kaushan+Script&display=swap');
+
+.coord{
+    text-align: center;
+    margin-top: 8%;
+    font-size: 5rem;
+}
+.team_row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    
+}
+.man{
+    width: 33%;
+    text-align: center;
+}
+
+.name{
+    font-size: large;
+}
+.position{
+    font-size: large;
+}
+
+.sec_words{
+    margin-top: 8%;
+}
+.sec_head{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Kaushan Script', cursive;
+}
+.words{
+    text-align: center;
+    padding-right: 6%;
+    padding-left: 6%;
+    font-family: 'Cookie', cursive;
+    font-size: 2rem;
+
+}
+.sec_img{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+@media (max-width: 500px) {
+    .team_row{
+        flex-direction: column;
+    }
+    .man{
+        width: 100%;
+    }    
+    .sec_img{
+        display: flex;
+        justify-content: center;
+        margin-top: 6%;
+        margin-bottom: 2%;
+    }
+    .words{
+        text-align: center;
+        padding-right: 8%;
+        padding-left: 8%;
+        font-family: 'Cookie', cursive;
+        font-size: 1.5rem;
+    
+    }
+    .coord{
+        text-align: center;
+        margin-top: 8%;
+        font-size: 3rem;
+}
